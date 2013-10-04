@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#button1{
+    background-color: #3ABEFF;
+    width: 100px;
+    height: 40px;
+    top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+#aboutContainer{
+    background-color: #b0b7dd;
+    width: 400px;
+    height: 250px;
+    left: 150px;
+    top: 50px;
+    margin-left: 30px;
+	padding: 20px;
+    position: relative;
+   -moz-border-radius: 14px;
+   -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+H3 {
+	text-align: center;
+}

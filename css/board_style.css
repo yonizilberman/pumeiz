@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#textsearch{ top: -10px; }
+
+#searchcenter{ top: 10px; }
+
+.center{
+	background-color: transparent;
+	top: 80px;
+	width: 840px;
+	height: 400px;
+	position: relative;
+}
+#button1{
+    width: 100px;
+    height: 40px;
+    top: 30px;
+    margin-left: 30px;
+    position: relative;
+}

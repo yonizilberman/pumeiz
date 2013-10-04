@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#center1{
+    top: 0px;
+    /*background-color: #b0b7dd;*/
+    width: 300px;
+    height: 350px;
+    position: relative;
+    -moz-border-radius: 32px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+}
+#center2{
+    top: 60px;
+    width: 180px;
+    position: relative;
+}
+#center2login{
+    top: 100px;
+    width: 180px;
+    position: relative;
+}
+.buttons {
+    width: 150px;
+    height: 50px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+#bigButtons {
+    width: 180px;
+    height: 80px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+.gaps{
+    width: 20px;
+    height: 30px;    
+}
+#logout{
+    width: 60px;
+    height: 60px;
+    margin-left: 615px;
+    position: relative;
+}
+#login, #signup{
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+}
+#signup, #login, #logout{
+    top: 16px;
+    position: relative;
+    /*-moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-box-shadow: 0px 0px 25px rgba(0,0,0,1), inset 0px 0px 25px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 25px rgba(0,0,0,1), inset 0px 0px 25px rgba(0,0,0,1);
+    box-shadow: 0px 0px 25px rgba(0,0,0,1), inset 0px 0px 25px rgba(0,0,0,1);*/
+
+}
+/*---------  the popup css  ---------*/
+#loginsinup{
+	height: 150px;
+}
+.jsbank_sample_cont {
+	margin: 20px;
+	padding: 20px;
+}
+.jsbank_sample_tit {
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: auto;
+	background-color: #c0c0c0;
+	border: 5px solid #a0a0a0;
+	color: black;
+	text-align: center;
+}
+#overlay{
+    float: left;
+    position: relative;
+    left: 50%;
+    font-weight: bold;
+}
+#logindiv, #signupdiv {
+    background-color: black;
+    color: white;
+    z-index: 999;
+    width: 190px;
+    padding: 5px;
+    position: absolute;
+    left: -100px;
+    top: 100px;
+    text-align: center;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+#close {
+	float: right;
+}

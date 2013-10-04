@@ -1,0 +1,226 @@
+/* v3.css
+   cross-browser.com
+   These are site-wide styles and are not required for any of the demos.
+*/
+
+* {
+  margin:0;
+  padding:0;
+}
+
+html {
+  color:#000; background:#fff;
+}
+body {
+  color:#000; background:#fff;
+  font-size:small;
+  font-family:verdana,arial,helvetica,sans-serif;
+}
+
+/* Misc. Elements */
+
+b {
+  font-weight:bold;
+  color:#000; background:transparent;
+}
+p {
+  color:#000; background:transparent;
+  margin:.3em 0 .5em 0; padding:0;
+  line-height:1.5em;
+}
+li {
+  margin-left: 1em;
+  margin-bottom:.5em;
+}
+pre {
+  font-family:'courier new',monospace;
+  color:#596380; background:transparent;
+  border:1px dotted #596380;
+  margin:4px 2px 10px 2px; padding:10px;
+  overflow:auto;
+  font-size:small; /* had to add this because IE was rendering it smaller */
+  max-height:32em;
+}
+code, tt {
+  font-family:'courier new',monospace;
+  color:#596380; background:transparent;
+  font-size:small; /* had to add this because IE was rendering it smaller */
+}
+
+/* Heading Elements */
+
+.h1Color { color:#596380; }
+h1 {
+  color:#596380;
+  background:transparent;
+  font-weight:normal;
+  margin:0; padding:0 0 6px 0;
+  text-align:left;
+  font-size:xx-large;
+}
+
+.h2Color { color:#BF8660; }
+.h2Bkgnd { background:#BF8660; }
+h2 {
+  color:#BF8660;
+  background:transparent;
+  font-weight:bold;
+  margin:2em 0 1em 0; padding:4px 0px;
+  font-size:large;
+}
+
+.h3Color { color:#596380; }
+h3 {
+  color:#596380;
+  margin:2em 0 1em 0; padding:0 0 0 0;
+  font-weight:bold;
+  font-size:medium;
+}
+
+#rightColumn h3 {
+  font-size:small;
+}
+
+.h4Color { color:#BF8660; }
+h4 {
+  color:#BF8660;
+  margin:1.6em 0 .6em 0; padding:0;
+  font-weight:bold;
+  font-size:small;
+}
+
+.mnuBox h4 {
+  margin:.5em 0;
+}
+
+h5 {
+  color:#596380; background:transparent;
+  margin:1.6em 0 .6em 0; padding:0;
+  font-weight:bold;
+  font-size:x-small;
+}
+
+.h5i { /* H5 'inline' */
+  color:#596380;
+  background:transparent;
+  margin:1.6em 2em .6em 0;
+  padding:0;
+  font-weight:bold;
+  font-size:x-small;
+}
+
+.h4P {
+  margin:.3em 0 .5em .25em; padding:0;
+}
+.h5P {
+  margin:.3em 0 .5em .5em; padding:0;
+  font-size:x-small;
+}
+
+/* Misc. Classes */
+
+#topLinkCon {
+  margin:0; padding:0;
+}
+.smaller {
+  font-size:smaller;
+}
+.textInput {
+  font-family:'courier new',monospace;
+  color:#000; background:#fff;
+  width:140px;
+}
+.inpTxt {
+  color:#000; background:#CCA78F;
+  font-family:'Courier New',monospace;
+  font-size:12px;
+  border:1px solid #596380;
+}
+.inpBtn {
+  color:#000; background:#CCA78F;
+  font-size:10px;
+  border:1px solid #596380;
+  cursor:pointer;
+}
+.noDisp {
+  display:none;
+}
+.collapsible {
+  margin:0; padding:0;
+  overflow:hidden;
+  display:block;
+}
+
+.hint, .titleHover { /* for non-A elements that have title='some info' */
+  border-bottom: 1px dotted #BF8660;
+  cursor: help;
+}
+
+/* Sidebar Menu */
+
+.mnuBox, .mnuOpt {
+  margin:0 0 4px 0; padding:4px 2px 4px 2px;
+  overflow:hidden;
+}
+.mnuBox p, .mnuOpt p {
+  margin:0; padding:0;
+  line-height:1.2em;
+  font-size:smaller;
+}
+
+/* Layout */
+
+#header {
+  background:transparent;
+  overflow:hidden;
+  margin:0; padding:0;
+  margin-bottom:30px;
+}
+
+#menubar1 {   /* static, horizontal site menu */
+  color:#596380;
+  background:transparent;
+  padding:2px;
+  margin:0;
+  font-weight:normal;
+  text-align:right;
+}
+#menubar1 b {
+  color:#BF8660;
+}
+
+.column {
+  top:20px; /* 90px; */ /* just estimate it ;-) */
+  position:absolute; overflow:hidden;
+  background:transparent;
+  margin:0; padding:0;
+}
+#leftColumn {
+  left:3%; width:70%;
+}
+
+.leftContent, .firstLeftContent {
+  background:#fff; /* CFD4E6; */
+  overflow:hidden;
+  margin:0 0 10px 0;
+  padding:10px 20px 20px 20px;
+}
+
+#footer {
+  font-size:smaller;
+  text-align:center;
+  padding:10px 20px 10px 20px;
+  border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

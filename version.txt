@@ -1,0 +1,19 @@
+version 1.9.5.7
+
+next version:
+2.0.0.0   
+
+if eyal    change something
+ 1.1.0.0
+if netanel change something
+ 1.0.1.0   
+if yoni    change something
+ 1.0.0.1   
+
+
+and so on...
+
+please change this number if you chnge any thing ....
+
+
+

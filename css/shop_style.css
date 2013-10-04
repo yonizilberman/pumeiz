@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+#searchcenter{ top: 29px; }
+
+#topArr{
+    width: 840px;
+    height: 210px;
+    top: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+#bigButtons {
+    width: 180px;
+    height: 80px;
+    padding-top: 5px;
+}
